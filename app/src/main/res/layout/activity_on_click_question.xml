@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sathish.discussionforum.activities.OnClickQuestionActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+
+
+
+    <WebView
+        android:layout_below="@+id/app_bar"
+        android:layout_above="@+id/filter_btn"
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <LinearLayout
+        android:id="@+id/filter_btn"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Options"
+            android:onClick="options"
+            android:textColor="@color/White"
+
+            android:background="@drawable/button_filter_selector"
+
+            android:padding="5dp"
+
+            />
+
+
+
+    </LinearLayout>
+</RelativeLayout>
