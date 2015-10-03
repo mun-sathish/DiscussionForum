@@ -21,7 +21,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity>t
         <activity
             android:name=".activities.AuthenticateActivity"
             android:label="@string/title_activity_authenticate"
